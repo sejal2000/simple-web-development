@@ -1,0 +1,132 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ <title>Web Development</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="C:\Users\Sejal\Desktop\html files\latest_Home.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">simple<span class="logo_colour">Web Development</span></a></h1>
+          <h2>Website Template</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="C:\Users\Sejal\Desktop\html files\latest_home.html">Home</a></li>
+          
+          <li><a href="C:\Users\Sejal\Desktop\html files\examples.html">Example</a></li>
+          <li><a href="C:\Users\Sejal\Desktop\html files\login3.html">Login</a></li>
+          <li><a href="C:\Users\Sejal\Desktop\html files\sign.html">Sign Up</a></li>
+          <li class="selected"><a href="C:\Users\Sejal\Desktop\html files\cont.html">Contact Us</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            
+            <h4>New Website Launched</h4>
+            <h5>April 30th,2019</h5>
+            
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="https://www.google.com/">Google</a></li>
+              <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+              <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Search</h3>
+            <form method="post" action="#" id="search_form">
+              <p>
+                <input class="search" type="text" name="search_field" value="Enter keywords....." />
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="https://www.html5webtemplates.co.uk/templates/simplestyle_horizon/style/search.png" alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container">
+    <div class="row"><div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contact us </h1>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                   <div class="col-md-6">
+                        <div class="form-group">
+                        <label for="name">Name</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        <br/> <br/>
+                        <label for="email">Email Address</label>&ensp;
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>&ensp;&ensp;
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                  </div>
+                    <br/> 
+                    <label for="name">Message</label>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <br/> <br/>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+        </form>
+      </div>
+    </div>
+ 
+</body>
+</html>
